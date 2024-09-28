@@ -1,5 +1,6 @@
 # The C Programming Language
-Learning C by working through the great book 'The C Programming Language' by Kernighan and Ritchie
+
+Learning C by working through the classic book 'The C Programming Language' by Kernighan and Ritchie.
 
 ## Notes to Self
 Stuck:
