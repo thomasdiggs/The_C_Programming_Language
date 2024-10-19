@@ -1,8 +1,6 @@
 /* Exercise 1-9. Write a program to copy its input to its output,
     replacing each string of one or more blanks by a single blank. */
 
-/* WORK IN PROGRESS */
-
 #include <stdio.h>
 
 int main()
@@ -14,12 +12,16 @@ int main()
     {
         if (c == ' ')
         {
-            b = 1;
-            putchar(c);
-            while (c != ' ')
+            if (b == 0)
             {
                 putchar(c);
+                b = 1;
             }
+        }
+        else
+        {
+            putchar(c);
+            b = 0;
         }
     }
 
