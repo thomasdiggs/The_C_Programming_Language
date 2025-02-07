@@ -1,6 +1,7 @@
 /* It's bad practice to bury
-    ``magic numbers'' like 300 and 20 in a program; they convey little information to someone
-    who might have to read the program later, and they are hard to change in a systematic way. */
+ * ``magic numbers'' like 300 and 20 in a program; they convey little information to someone
+ * who might have to read the program later, and they are hard to change in a systematic way.
+ */
 
 #include <stdio.h>
 
@@ -12,9 +13,11 @@
 
 /* print Fahrenheit-Celsius table */
 
-int main(void)
+int main()
 {
     int fahr;
     for (fahr = LOWER; fahr <= UPPER; fahr = fahr + STEP)
         printf("%3d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
+	
+	return 0;
 }

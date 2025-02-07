@@ -1,4 +1,5 @@
-/* The next program counts characters; it is similar to the copy program. */
+/* The next program counts characters; it is similar to the copy program.
+ */
 
 #include <stdio.h>
 

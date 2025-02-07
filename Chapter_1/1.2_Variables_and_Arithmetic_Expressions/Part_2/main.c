@@ -1,11 +1,13 @@
 /* we have used integer arithmetic, the Celsius
-    temperatures are not very accurate; for instance,
-    0F is actually about -17.8C, not -17. To get more
-    accurate answers, we should use floating-point
-    arithmetic instead of integer. */
+ * temperatures are not very accurate; for instance,
+ * 0F is actually about -17.8C, not -17. To get more
+ * accurate answers, we should use floating-point
+ * arithmetic instead of integer.
+ */
+
 #include <stdio.h>
 
-main()
+int main()
 {
     float fahr, celsius;
     float lower, upper, step;
@@ -29,4 +31,6 @@ main()
         printf("%3.0f %6.1f\n", fahr, celsius);
         fahr = fahr + step;
     }
+
+	return 0;
 }

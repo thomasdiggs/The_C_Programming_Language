@@ -1,8 +1,9 @@
 /* The fourth in our series of useful programs counts lines,
-words, and characters, with the loose definition that a word
-is any sequence of characters that does not contain a blank,
-tab or newline. This is a bare-bones version of the UNIX
-program wc. */
+ * words, and characters, with the loose definition that a word
+ * is any sequence of characters that does not contain a blank,
+ * tab or newline. This is a bare-bones version of the UNIX
+ * program wc.
+ */
 
 #include <stdio.h>
 

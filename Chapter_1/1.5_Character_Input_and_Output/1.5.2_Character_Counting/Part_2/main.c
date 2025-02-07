@@ -1,5 +1,6 @@
 /* We will also use a for statement instead of a while,
-    to illustrate another way to write the loop. */
+ * to illustrate another way to write the loop.
+ */
 
 #include <stdio.h>
 
